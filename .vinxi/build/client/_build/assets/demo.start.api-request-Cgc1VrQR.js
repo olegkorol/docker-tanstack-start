@@ -1,1 +1,0 @@
-import{g as t,j as n}from"./client-B2X-lc4r.js";function a(){return fetch("/api/demo-names").then(e=>e.json())}const r=function(){const[s,o]=t.useState([]);return t.useEffect(()=>{a().then(o)},[]),n.jsx("div",{className:"p-4",children:n.jsx("div",{children:s.join(", ")})})};export{r as component};

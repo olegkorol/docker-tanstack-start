@@ -1,1 +1,0 @@
-import{a as e}from"./assets/index-DOnqj4Ge.js";import"node:async_hooks";import"h3";const n=e("/api/demo-names")({GET:async({request:o})=>new Response(JSON.stringify(["Alice","Bob","Charlie"]),{headers:{"Content-Type":"application/json"}})});export{n as APIRoute};

@@ -27,6 +27,8 @@ The app will be available at `http://[::]:3000/`.
 
 ## Deploying to Fly.io
 
+First, change your app details in the `fly.toml` file.
+
 To deploy to Fly.io, you can use the following command:
 
 ```bash

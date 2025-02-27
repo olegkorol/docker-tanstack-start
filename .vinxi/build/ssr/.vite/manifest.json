@@ -1,0 +1,94 @@
+{
+  "/Users/olegkorol/LocalOnly/git-repos/templates/tanstack-react-w-addons-test/src/styles.css": {
+    "file": "assets/styles-4k2pO40L.css",
+    "src": "/Users/olegkorol/LocalOnly/git-repos/templates/tanstack-react-w-addons-test/src/styles.css"
+  },
+  "_ssr-Deo7-Izn.js": {
+    "file": "assets/ssr-Deo7-Izn.js",
+    "name": "ssr",
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component",
+      "src/routes/demo.tanstack-query.tsx?tsr-split=component",
+      "src/routes/demo.store.tsx?tsr-split=component",
+      "src/routes/demo.form.tsx?tsr-split=component",
+      "src/routes/demo.start.server-funcs.tsx?tsr-split=component",
+      "src/routes/demo.start.api-request.tsx?tsr-split=component"
+    ],
+    "css": [
+      "assets/styles-4k2pO40L.css"
+    ],
+    "assets": [
+      "assets/styles-4k2pO40L.css"
+    ]
+  },
+  "src/logo.svg": {
+    "file": "assets/logo-CHtJT8UQ.svg",
+    "src": "src/logo.svg"
+  },
+  "src/routes/demo.form.tsx?tsr-split=component": {
+    "file": "assets/demo.form-BMgc3APc.js",
+    "name": "demo.form",
+    "src": "src/routes/demo.form.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-Deo7-Izn.js"
+    ]
+  },
+  "src/routes/demo.start.api-request.tsx?tsr-split=component": {
+    "file": "assets/demo.start.api-request-C6io-ThA.js",
+    "name": "demo.start.api-request",
+    "src": "src/routes/demo.start.api-request.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-Deo7-Izn.js"
+    ]
+  },
+  "src/routes/demo.start.server-funcs.tsx?tsr-split=component": {
+    "file": "assets/demo.start.server-funcs-C7WTZfw4.js",
+    "name": "demo.start.server-funcs",
+    "src": "src/routes/demo.start.server-funcs.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-Deo7-Izn.js"
+    ]
+  },
+  "src/routes/demo.store.tsx?tsr-split=component": {
+    "file": "assets/demo.store-BEECRFmg.js",
+    "name": "demo.store",
+    "src": "src/routes/demo.store.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-Deo7-Izn.js"
+    ]
+  },
+  "src/routes/demo.tanstack-query.tsx?tsr-split=component": {
+    "file": "assets/demo.tanstack-query-CzSbnXE3.js",
+    "name": "demo.tanstack-query",
+    "src": "src/routes/demo.tanstack-query.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-Deo7-Izn.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-C6fLTS-W.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-Deo7-Izn.js"
+    ],
+    "assets": [
+      "assets/logo-CHtJT8UQ.svg"
+    ]
+  },
+  "virtual:$vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "name": "ssr",
+    "src": "virtual:$vinxi/handler/ssr",
+    "isEntry": true,
+    "imports": [
+      "_ssr-Deo7-Izn.js"
+    ]
+  }
+}

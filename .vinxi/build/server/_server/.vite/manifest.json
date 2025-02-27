@@ -1,0 +1,59 @@
+{
+  "_index-CcBX9Z2C.js": {
+    "file": "assets/index-CcBX9Z2C.js",
+    "name": "index",
+    "imports": [
+      "_server-DGZq9EmD.js"
+    ]
+  },
+  "_server-DGZq9EmD.js": {
+    "file": "assets/server-DGZq9EmD.js",
+    "name": "server",
+    "dynamicImports": [
+      "src/routes/demo.start.server-funcs.tsx?tsr-directive-use-server=",
+      "src/routes/demo.start.server-funcs.tsx?tsr-split=component&tsr-directive-use-server="
+    ]
+  },
+  "src/routes/demo.start.server-funcs.tsx?tsr-directive-use-server=": {
+    "file": "assets/demo.start.server-funcs-AMrb0Oaq.js",
+    "name": "demo.start.server-funcs",
+    "src": "src/routes/demo.start.server-funcs.tsx?tsr-directive-use-server=",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-CcBX9Z2C.js",
+      "_server-DGZq9EmD.js"
+    ],
+    "dynamicImports": [
+      "src/routes/demo.start.server-funcs.tsx?tsr-split=component"
+    ]
+  },
+  "src/routes/demo.start.server-funcs.tsx?tsr-split=component": {
+    "file": "assets/demo.start.server-funcs-BEWy0mrp.js",
+    "name": "demo.start.server-funcs",
+    "src": "src/routes/demo.start.server-funcs.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-CcBX9Z2C.js",
+      "_server-DGZq9EmD.js"
+    ]
+  },
+  "src/routes/demo.start.server-funcs.tsx?tsr-split=component&tsr-directive-use-server=": {
+    "file": "assets/demo.start.server-funcs-CoXrIZuF.js",
+    "name": "demo.start.server-funcs",
+    "src": "src/routes/demo.start.server-funcs.tsx?tsr-split=component&tsr-directive-use-server=",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-CcBX9Z2C.js",
+      "_server-DGZq9EmD.js"
+    ]
+  },
+  "virtual:$vinxi/handler/server": {
+    "file": "server.js",
+    "name": "server",
+    "src": "virtual:$vinxi/handler/server",
+    "isEntry": true,
+    "imports": [
+      "_server-DGZq9EmD.js"
+    ]
+  }
+}

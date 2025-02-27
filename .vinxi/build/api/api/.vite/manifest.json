@@ -1,0 +1,29 @@
+{
+  "_index-DOnqj4Ge.js": {
+    "file": "assets/index-DOnqj4Ge.js",
+    "name": "index",
+    "dynamicImports": [
+      "src/routes/api.demo-names.ts?pick=APIRoute",
+      "src/routes/api.demo-names.ts?pick=APIRoute"
+    ]
+  },
+  "src/routes/api.demo-names.ts?pick=APIRoute": {
+    "file": "api.demo-names.js",
+    "name": "api.demo-names",
+    "src": "src/routes/api.demo-names.ts?pick=APIRoute",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-DOnqj4Ge.js"
+    ]
+  },
+  "virtual:$vinxi/handler/api": {
+    "file": "api.js",
+    "name": "api",
+    "src": "virtual:$vinxi/handler/api",
+    "isEntry": true,
+    "imports": [
+      "_index-DOnqj4Ge.js"
+    ]
+  }
+}

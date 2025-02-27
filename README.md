@@ -1,15 +1,39 @@
-Welcome to your new TanStack app! 
+# TanStack (Start) with Docker
 
-# Getting Started
+This is a simple example of a TanStack (Start) React app, initialized with `pnpm create tanstack-app@latest --add-ons`.
+
+It includes a Docker configuration (with access to a writable directory) to build it and deploy it anywhere where Docker is supported.
+
+There's also a simple configuration to quickly deploy it to Fly.io.
+
+## Quickstart
 
 To run this application:
 
 ```bash
 pnpm install
-pnpm start
+pnpm dev
 ```
 
-# Building For Production
+## Running with Docker
+
+If you want to test the app locally before deploying to Fly.io (or elsewhere), you can run it in Docker:
+
+```bash
+docker build -t tanstack-react-app . && docker run -p 3000:3000 tanstack-react-app
+```
+
+The app will be available at `http://[::]:3000/`.
+
+## Deploying to Fly.io
+
+To deploy to Fly.io, you can use the following command:
+
+```bash
+fly deploy # the first time you might need to run `fly auth login` and `fly launch` first
+```
+
+## Building
 
 To build this application for production:
 
@@ -29,8 +53,6 @@ pnpm run test
 
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 
-
-
 ## Shadcn
 
 Add components using the canary version of [Shadcn](https://ui.shadcn.com/).
@@ -39,9 +61,8 @@ Add components using the canary version of [Shadcn](https://ui.shadcn.com/).
 pnpx shadcn@canary add button
 ```
 
-
-
 ## Routing
+
 This project uses [TanStack Router](https://tanstack.com/router). The initial setup is a file based router. Which means that the routes are managed as fiels in `src/routes`.
 
 ### Adding A Route
@@ -101,7 +122,6 @@ export const Route = createRootRoute({
 The `<TanStackRouterDevtools />` component is not required so you can remove it if you don't want it in your layout.
 
 More information on layouts can be found in the [Layouts documentation](hthttps://tanstack.com/router/latest/docs/framework/react/guide/routing-concepts#layouts).
-
 
 ## Data Fetching
 
@@ -290,10 +310,10 @@ Once we've created the derived store we can use it in the `App` component just l
 
 You can find out everything you need to know on how to use TanStack Store in the [TanStack Store documentation](https://tanstack.com/store/latest).
 
-# Demo files
+## Demo files
 
 Files prefixed with `demo` can be safely deleted. They are there to provide a starting point for you to play around with the features you've installed.
 
-# Learn More
+## Learn More
 
 You can learn more about all of the offerings from TanStack in the [TanStack documentation](https://tanstack.com).

@@ -14,6 +14,6 @@ export default defineConfig({
     ],
   },
   server: {
-    preset: 'netlify',
+    preset: 'node-server',
   }
 })
